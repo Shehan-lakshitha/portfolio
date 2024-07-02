@@ -75,6 +75,9 @@ textarea{
   font-weight: var(--normal-font-size);
 }
 
+
+
+
 body{
   background-color: var(--body-color);
   color: var(--text-color);
