@@ -9,6 +9,7 @@ const header = () => {
   });
 
   const [toggle, showMenu] = useState(false);
+  const [active, setActive] = useState("#home");
 
   return (
     <header className="header">
@@ -20,31 +21,31 @@ const header = () => {
         <div className={toggle ? "nav_menu show-menu" : "nav_menu"}>
           <ul className="nav_list grid">
             <li className="nav_item">
-              <a href="#home" className="nav_link active-link">
+              <a href="#home" onClick={() => setActive('#home')} className={active === '#home' ? "nav_link active-link" : "nav_link"}>
                 <i className="uil uil-estate nav_icon"></i> Home
               </a>
             </li>
 
             <li className="nav_item">
-              <a href="#about" className="nav_link">
+              <a href="#about" onClick={() => setActive('#about')} className={active === '#about' ? "nav_link active-link" : "nav_link"}>
                 <i className="uil uil-user nav_icon"></i> About Me
               </a>
             </li>
 
             <li className="nav_item">
-              <a href="#skills" className="nav_link">
+              <a href="#skills" onClick={() => setActive('#skills')} className={active === '#skills' ? "nav_link active-link" : "nav_link"}>
                 <i className="uil uil-file-alt nav_icon"></i> Skills
               </a>
             </li>
 
             <li className="nav_item">
-              <a href="#portfolio" className="nav_link">
+              <a href="#portfolio" onClick={() => setActive('#portfolio')} className={active === '#portfolio' ? "nav_link active-link" : "nav_link"}>
                 <i className="uil uil-scenery nav_icon"></i> Portfolio
               </a>
             </li>
 
             <li className="nav_item">
-              <a href="#contact" className="nav_link">
+              <a href="#contact" onClick={() => setActive('#contact')} className={active === '#contact' ? "nav_link active-link" : "nav_link"}>
                 <i className="uil uil-message nav_icon"></i> Contact
               </a>
             </li>
