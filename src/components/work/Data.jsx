@@ -19,7 +19,7 @@ export const projects = [
         id: 3,
         image: work3,
         title: "Project 3",
-        category: "React",
+        category: "Sass",
     },
 ]
 

@@ -13,6 +13,15 @@
     font-weight: var(--font-medium);
     border-radius: 0.5rem;
 }
+.work_item:hover{
+    background-color: var(--title-color);
+    color: white;
+}
+
+.active-work{
+    background-color: var(--title-color);
+    color: white;
+}
 
 .work_container{
     grid-template-columns: repeat(3, max-content);
