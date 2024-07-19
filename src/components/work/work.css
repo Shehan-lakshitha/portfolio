@@ -37,6 +37,8 @@
 
 .work_img{
     width: 280px;
+    height: 180px;
+    object-fit: contain;
     border-radius: .7rem;
     margin-bottom: var(--mb-1);
 }
@@ -53,6 +55,11 @@
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
 }
 
 .work_button-icon{

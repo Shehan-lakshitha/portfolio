@@ -1,25 +1,40 @@
-import work1 from "../../assets/work1.jpg";
-import work2 from "../../assets/work2.jpg";
-import work3 from "../../assets/work3.jpg";
+import MediTech from "../../assets/MediTech.jpg";
+import NexPay from "../../assets/Nexpay.png";
+import Pearl from "../../assets/Pearl.png";
+import npm from "../../assets/npm.png";
 
 export const projects = [
     {
         id: 1,
-        image: work1,
-        title: "Project 1",
+        image: MediTech,
+        title: "MediTech",
         category: "React",
+        demo: "https://meditechlk.netlify.app",
+        github: "https://github.com/Shehan-lakshitha/MediTech"
     },
     {
         id: 2,
-        image: work2,
-        title: "Project 2",
-        category: "React",
+        image: NexPay,
+        title: "NexPay",
+        category: "React-Native",
+        demo: "",
+        github: "https://github.com/Shehan-lakshitha/MediTech"
     },
     {
         id: 3,
-        image: work3,
-        title: "Project 3",
-        category: "Sass",
+        image: Pearl,
+        title: "Pearl",
+        category: "React",
+        demo: "https://pearl-4c5dd.web.app",
+        github: "https://github.com/Shehan-lakshitha/Pearl"
+    },
+    {
+        id: 4,
+        image: npm,
+        title: "rn_credit_card_flip",
+        category: "npm packages",
+        demo: "https://www.npmjs.com/package/rn_credit_card_flip",
+        github: "https://github.com/Shehan-lakshitha/rn_credit_card_flip"
     },
 ]
 
@@ -31,15 +46,9 @@ export const projectsNav = [
         name: "React",
     },
     {
-        name: "Sass",
+        name: "React-Native",
     },
     {
-        name: "JavaScript",
+        name: "npm packages",
     },
-    {
-        name: "Node",
-    },
-    {
-        name: "Mong",
-    }
 ]
