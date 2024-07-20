@@ -4,51 +4,51 @@ import Pearl from "../../assets/Pearl.png";
 import npm from "../../assets/npm.png";
 
 export const projects = [
-    {
-        id: 1,
-        image: MediTech,
-        title: "MediTech",
-        category: "React",
-        demo: "https://meditechlk.netlify.app",
-        github: "https://github.com/Shehan-lakshitha/MediTech"
-    },
-    {
-        id: 2,
-        image: NexPay,
-        title: "NexPay",
-        category: "React-Native",
-        demo: "",
-        github: "https://github.com/Shehan-lakshitha/MediTech"
-    },
-    {
-        id: 3,
-        image: Pearl,
-        title: "Pearl",
-        category: "React",
-        demo: "https://pearl-4c5dd.web.app",
-        github: "https://github.com/Shehan-lakshitha/Pearl"
-    },
-    {
-        id: 4,
-        image: npm,
-        title: "rn_credit_card_flip",
-        category: "npm packages",
-        demo: "https://www.npmjs.com/package/rn_credit_card_flip",
-        github: "https://github.com/Shehan-lakshitha/rn_credit_card_flip"
-    },
-]
+  {
+    id: 1,
+    image: MediTech,
+    title: "MediTech",
+    category: "React",
+    demo: "https://meditechlk.netlify.app",
+    github: "https://github.com/Shehan-lakshitha/MediTech",
+  },
+  {
+    id: 2,
+    image: NexPay,
+    title: "NexPay",
+    category: "React-Native",
+    demo: "",
+    github: "https://github.com/Shehan-lakshitha/MediTech",
+  },
+  {
+    id: 3,
+    image: Pearl,
+    title: "Pearl",
+    category: "React",
+    demo: "https://pearl-4c5dd.web.app",
+    github: "https://github.com/Shehan-lakshitha/Pearl",
+  },
+  {
+    id: 4,
+    image: npm,
+    title: "rn_credit_card_flip",
+    category: "npm packages",
+    demo: "https://www.npmjs.com/package/rn_credit_card_flip",
+    github: "https://github.com/Shehan-lakshitha/rn_credit_card_flip",
+  },
+];
 
 export const projectsNav = [
-    {
-        name: "All",
-    },
-    {
-        name: "React",
-    },
-    {
-        name: "React-Native",
-    },
-    {
-        name: "npm packages",
-    },
-]
+  {
+    name: "All",
+  },
+  {
+    name: "React",
+  },
+  {
+    name: "React-Native",
+  },
+  {
+    name: "npm packages",
+  },
+];

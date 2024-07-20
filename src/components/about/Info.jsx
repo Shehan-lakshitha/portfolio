@@ -5,8 +5,8 @@ const Info = () => {
     <div className="about_info grid">
       <div className="about_box">
         <i class="bx bx-award about_icon"></i>
-        <h3 className="about_title">Experience</h3>
-        <span className="about_subtitle">2 Years Working</span>
+        <h3 className="about_title">Undergraduate</h3>
+        <span className="about_subtitle">3rd year</span>
       </div>
 
       <div className="about_box">
@@ -17,7 +17,7 @@ const Info = () => {
 
       <div className="about_box">
         <i class="bx bx-support about_icon"></i>
-        <h3 className="about_title">Support</h3>
+        <h3 className="about_title">Contact</h3>
         <span className="about_subtitle">Online 24/7</span>
       </div>
     </div>
