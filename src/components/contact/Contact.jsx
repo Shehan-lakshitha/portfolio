@@ -1,9 +1,11 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./contact.css";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const form = useRef();
+
+  const [message, setMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -15,9 +17,17 @@ const Contact = () => {
       .then(
         () => {
           console.log("Email sent successfully");
+          setMessage("Message sent successfully, I will get back to you soon");
+          setTimeout(() => {
+            setMessage("");
+          }, 5000)
         },
         (error) => {
           console.log("Email not sent", error);
+          setMessage("Message not sent, please try again later");
+          setTimeout(() => {
+            setMessage("");
+          }, 5000)
         }
       );
 
@@ -107,6 +117,8 @@ const Contact = () => {
               ></textarea>
             </div>
 
+            {message && <p className="contact_message">{message}</p>}
+            
             <button href="#contact" className="button button--flex">
               Send Message <i className="uil uil-message button_icon"></i>
             </button>

@@ -107,6 +107,13 @@
 .contact_form-area textarea{
     resize: none;
 }
+.contact_message{
+    position: absolute;
+    margin-top: -30px;
+    font-size: var(--small-font-size);
+    color: red;
+    font-weight: var(--font-medium);
+}
 
 @media screen and (max-width: 992px) {
     .contact_container{
