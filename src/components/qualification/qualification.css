@@ -16,7 +16,7 @@
     cursor: pointer;
 }
 .qualification_button:hover{
-    color: red;
+    color: var(--accent);
 }
 
 .qualification_icon{
@@ -25,7 +25,7 @@
 }
 
 .qualification_active{
-    color: red;
+    color: var(--accent);
 }
 
 .qualification_sections{

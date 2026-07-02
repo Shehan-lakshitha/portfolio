@@ -56,10 +56,11 @@ const Data = () => {
         </svg>
       </h1>
 
-      <h3 className="home_subtitle">FullStack Developer</h3>
+      <h3 className="home_subtitle">Software Engineer</h3>
       <p className="home_description">
-        I am a fullstack developer in mobile and web with experinece in ReactJs
-        and React-Native
+        Associate Software Engineer at IMO Technologies, building backend
+        systems and full-stack applications with Java, Spring Boot and React.
+        Published IEEE researcher in cloud resource scheduling.
       </p>
       <a href="#contact" className="button button--flex">
         Contact Me <i className="uil uil-message button_icon"></i>

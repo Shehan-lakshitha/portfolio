@@ -19,7 +19,7 @@ export const projects = [
     title: "NexPay",
     category: "React-Native",
     demo: "",
-    github: "https://github.com/Shehan-lakshitha/MediTech",
+    github: "https://github.com/Shehan-lakshitha/NexPay",
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ export const projects = [
   {
     id: 5,
     image: PearlAdmin,
-    title: "rn_credit_card_flip",
+    title: "Pearl Admin Dashboard",
     category: "React",
     demo: "",
     github: "https://github.com/Shehan-lakshitha/Pearl-Admin-Dashboard",

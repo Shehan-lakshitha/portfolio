@@ -19,7 +19,7 @@
   color: var(--title-color);
 }
 .home_social-icon:hover {
-  color: red;
+  color: var(--accent);
 }
 
 .home_title {

@@ -1,6 +1,6 @@
 .footer{
-    background-color: white;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--container-color);
+    border-top: 1px solid var(--border-color);
 }
 
 .footer_container{
@@ -17,7 +17,7 @@
     margin-bottom: var(--mb-2);
 }
 .footer_link:hover{
-    color: red;
+    color: var(--accent);
 }
 
 .footer_list{
@@ -47,7 +47,7 @@
 }
 
 .footer_social-link:hover{
-    background-color: red;
+    background-color: var(--accent);
 }
 
 .footer_copy{

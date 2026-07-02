@@ -1,14 +1,20 @@
 .skills_container{
-    grid-template-columns: repeat(2, 350px);
-    column-gap: 3rem;
+    grid-template-columns: repeat(3, 300px);
+    column-gap: 2rem;
     justify-content: center;
 }
 
 .skills_content{
-    background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 2rem 4rem;
+    background-color: var(--container-color);
+    border: 1px solid var(--border-color);
+    padding: 2rem 2.5rem;
     border-radius: 1.25rem;
+    transition: border-color .25s, transform .25s;
+}
+
+.skills_content:hover{
+    border-color: var(--accent);
+    transform: translateY(-4px);
 }
 
 .skills_title{
@@ -35,7 +41,7 @@
 
 .skills .bx-badge-check{
     font-size: 1rem;
-    color: var(--title-color);
+    color: var(--accent);
 }
 .skills_name{
     font-size: var(--normal-font-size);

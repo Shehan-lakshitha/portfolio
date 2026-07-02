@@ -34,14 +34,14 @@ const Footer = () => {
         </ul>
 
         <div className="footer_social">
-          <a href="" className="footer_social-link" target="_blank">
-            <i className="uil uil-facebook"></i>
-          </a>
-          <a href="" className="footer_social-link" target="_blank">
+          <a href="https://www.linkedin.com/in/shehan-lakshitha-8ab6a9218/" className="footer_social-link" target="_blank" rel="noopener">
             <i className="uil uil-linkedin-alt"></i>
           </a>
-          <a href="" className="footer_social-link" target="_blank">
+          <a href="https://github.com/Shehan-lakshitha" className="footer_social-link" target="_blank" rel="noopener">
             <i className="uil uil-github-alt"></i>
+          </a>
+          <a href="mailto:Shehanlaksh@gmail.com" className="footer_social-link" target="_blank" rel="noopener">
+            <i className="uil uil-envelope"></i>
           </a>
         </div>
 

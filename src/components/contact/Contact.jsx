@@ -37,7 +37,7 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
       <h2 className="section_title">Get in touch</h2>
-      <span className="section_subtitle">Contact me</span>
+      <span className="section_subtitle">// get in touch</span>
 
       <div className="contact_container container grid">
         <div className="contact_content">
@@ -60,10 +60,10 @@ const Contact = () => {
               <i className="bx bxl-whatsapp contact_card-icon"></i>
 
               <h3 className="contact_card-title">Mobile</h3>
-              <span className="contact_card-data">+94774084011</span>
+              <span className="contact_card-data">+94 77 408 4011</span>
 
-              <a href="" className="contact_button">
-                Write me{" "}
+              <a href="tel:+94774084011" className="contact_button">
+                Call me{" "}
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
             </div>
@@ -74,7 +74,7 @@ const Contact = () => {
               <h3 className="contact_card-title">LinkedIn</h3>
               <span className="contact_card-data">Shehan Lakshitha</span>
 
-              <a href="" className="contact_button">
+              <a href="https://www.linkedin.com/in/shehan-lakshitha-8ab6a9218/" target="_blank" rel="noopener" className="contact_button">
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>

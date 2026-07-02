@@ -1,17 +1,16 @@
-import React from "react";
+import React from 'react'
 
-const Frontend = () => {
+const Database = () => {
   return (
     <div className="skills_content">
-      <h3 className="skills_title">Frontend</h3>
-
+      <h3 className="skills_title">Database & Tools</h3>
         <div className="skills_box">
           <div className="skills_group">
             <div className="skills_data">
               <i className="bx bx-badge-check skills_icon"></i>
 
               <div>
-                <h3 className="skills_name">React.js</h3>
+                <h3 className="skills_name">MySQL</h3>
                 <span className="skills_level">Advanced</span>
               </div>
             </div>
@@ -20,7 +19,7 @@ const Frontend = () => {
               <i className="bx bx-badge-check skills_icon"></i>
 
               <div>
-                <h3 className="skills_name">Next.js</h3>
+                <h3 className="skills_name">PostgreSQL</h3>
                 <span className="skills_level">Intermediate</span>
               </div>
             </div>
@@ -29,7 +28,7 @@ const Frontend = () => {
               <i className="bx bx-badge-check skills_icon"></i>
 
               <div>
-                <h3 className="skills_name">React Native</h3>
+                <h3 className="skills_name">MongoDB</h3>
                 <span className="skills_level">Intermediate</span>
               </div>
             </div>
@@ -40,16 +39,7 @@ const Frontend = () => {
               <i className="bx bx-badge-check skills_icon"></i>
 
               <div>
-                <h3 className="skills_name">TypeScript</h3>
-                <span className="skills_level">Intermediate</span>
-              </div>
-            </div>
-
-            <div className="skills_data">
-              <i className="bx bx-badge-check skills_icon"></i>
-
-              <div>
-                <h3 className="skills_name">Ant Design</h3>
+                <h3 className="skills_name">Git</h3>
                 <span className="skills_level">Advanced</span>
               </div>
             </div>
@@ -58,15 +48,25 @@ const Frontend = () => {
               <i className="bx bx-badge-check skills_icon"></i>
 
               <div>
-                <h3 className="skills_name">Bootstrap</h3>
+                <h3 className="skills_name">Postman</h3>
+                <span className="skills_level">Advanced</span>
+              </div>
+            </div>
+
+            <div className="skills_data">
+              <i className="bx bx-badge-check skills_icon"></i>
+
+              <div>
+                <h3 className="skills_name">Azure</h3>
                 <span className="skills_level">Intermediate</span>
               </div>
             </div>
+
           </div>
         </div>
 
     </div>
-  );
-};
+  )
+}
 
-export default Frontend;
+export default Database

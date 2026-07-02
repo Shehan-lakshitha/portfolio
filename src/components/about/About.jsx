@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section_title">About me</h2>
-      <span className="section_subtitle">My introduction</span>
+      <span className="section_subtitle">// background</span>
 
       <div className="about_container container grid">
         <img src={AboutImg} alt="" className="about_img" />
@@ -17,11 +17,15 @@ const About = () => {
           <Info />
 
           <p className="about_description">
-            I am a strong, skillful, and self-organized IT undergraduate
-            student, seeking an opportunity to expand my technical skills in a
-            real-worldsetting. Have strong foundation in Information Technology
-            and a passion for solving complex problems, I am eager to contribute
-            to a team's success
+            I'm a computing graduate from Sabaragamuwa University of Sri Lanka,
+            currently working as an Associate Software Engineer at IMO
+            Technologies, where I build a full-stack ERP system end to end —
+            from Spring Boot APIs and MySQL schema design to real-time,
+            WebSocket-driven React dashboards. Before that, I interned at WSO2,
+            working on Ballerina services and the Ballerina GitHub connector.
+            I also co-authored an IEEE paper on hybrid meta-heuristics for
+            cloud resource scheduling, and I enjoy bringing that same
+            systems-thinking into everyday backend architecture.
           </p>
 
           <a download="" href={CV} className="button button--flex">

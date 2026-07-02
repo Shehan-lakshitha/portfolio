@@ -10,7 +10,7 @@ const Qualification = () => {
   return (
     <section className="qualification section">
       <h2 className="section_title">Qualifications</h2>
-      <span className="section_subtitle">My journey</span>
+      <span className="section_subtitle">// education, experience & research</span>
 
       <div className="qualification_container container">
         <div className="qualification_tabs">
@@ -37,6 +37,18 @@ const Qualification = () => {
             <i className="uil uil-briefcase-alt qualication_icon"></i>
             Experience
           </div>
+
+          <div
+            className={
+              toggleState === 3
+                ? "qualification_button qualification_active button--flex"
+                : "qualification_button button--flex"
+            }
+            onClick={() => toggleTab(3)}
+          >
+            <i className="uil uil-file-alt qualication_icon"></i>
+            Research
+          </div>
         </div>
 
         <div className="qualification_sections">
@@ -49,10 +61,10 @@ const Qualification = () => {
           >
             <div className="qualification_data">
               <div className="">
-                <h3 className="qualification_title">Undergraduate</h3>
-                <span className="qualification_subtitle">Sabaragamuwa University of Sri Lanka</span>
+                <h3 className="qualification_title">B.Sc. (Hons) Computing & Information Systems</h3>
+                <span className="qualification_subtitle">Sabaragamuwa University of Sri Lanka · GPA 3.71</span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - present
+                  <i className="uil uil-calendar-alt"></i>2022 - 2026
                 </div>
               </div>
 
@@ -72,7 +84,7 @@ const Qualification = () => {
 
               <div className="">
                 <h3 className="qualification_title">
-                  Advanced Level
+                  G.C.E. Advanced Level, Physical Science
                 </h3>
                 <span className="qualification_subtitle">De Mazenod College, Kandana</span>
                 <div className="qualification_calender">
@@ -81,37 +93,6 @@ const Qualification = () => {
               </div>
             </div>
 
-            {/* <div className="qualification_data">
-              <div className="">
-                <h3 className="qualification_title">Web development</h3>
-                <span className="qualification_subtitle">SUSL</span>
-                <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - present
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-            </div> */}
-
-            {/* <div className="qualification_data">
-              <div></div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-
-              <div className="">
-                <h3 className="qualification_title">UX Expert</h3>
-                <span className="qualification_subtitle">SUSL</span>
-                <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - 2023
-                </div>
-              </div>
-            </div> */}
           </div>
 
           <div
@@ -121,6 +102,38 @@ const Qualification = () => {
                 : "qualification_content"
             }
           >
+            <div className="qualification_data">
+              <div className="">
+                <h3 className="qualification_title">Associate Software Engineer</h3>
+                <span className="qualification_subtitle">IMO Technologies</span>
+                <div className="qualification_calender">
+                  <i className="uil uil-calendar-alt"></i>Jan 2026 - Present
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification_rounder"></span>
+                <span className="qualification_line"></span>
+              </div>
+            </div>
+
+            <div className="qualification_data">
+              <div></div>
+
+              <div>
+                <span className="qualification_rounder"></span>
+                <span className="qualification_line"></span>
+              </div>
+
+              <div className="">
+                <h3 className="qualification_title">Software Engineer Intern</h3>
+                <span className="qualification_subtitle">WSO2</span>
+                <div className="qualification_calender">
+                  <i className="uil uil-calendar-alt"></i>Aug 2024 - Feb 2025
+                </div>
+              </div>
+            </div>
+
             <div className="qualification_data">
               <div className="">
                 <h3 className="qualification_title">Microsoft Student Ambassador</h3>
@@ -136,29 +149,21 @@ const Qualification = () => {
               </div>
             </div>
 
-            {/* <div className="qualification_data">
-              <div></div>
+          </div>
 
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-
+          <div
+            className={
+              toggleState === 3
+                ? "qualification_content qualification_content-active"
+                : "qualification_content"
+            }
+          >
+            <div className="qualification_data">
               <div className="">
-                <h3 className="qualification_title">Software Engineer</h3>
-                <span className="qualification_subtitle">SUSL</span>
+                <h3 className="qualification_title">HPSO-GO: A Hybrid Meta-Heuristic Approach for Multi-Objective Real-Time Cloud Resource Scheduling</h3>
+                <span className="qualification_subtitle">IEEE — International Research Conference on Smart Computing and Systems Engineering (SCSE)</span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - present
-                </div>
-              </div>
-            </div> */}
-
-            {/* <div className="qualification_data">
-              <div className="">
-                <h3 className="qualification_title">Web Designer</h3>
-                <span className="qualification_subtitle">Figma</span>
-                <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - present
+                  <i className="uil uil-calendar-alt"></i>2026
                 </div>
               </div>
 
@@ -166,7 +171,7 @@ const Qualification = () => {
                 <span className="qualification_rounder"></span>
                 <span className="qualification_line"></span>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
